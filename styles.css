@@ -1,0 +1,91 @@
+html, body {
+    margin: 0;
+    font-family: "Special Elite", Arial;
+}
+
+#content {
+    padding: 16px;
+}
+
+header div {
+    background-color: #cccccc;
+}
+
+#head1 img {
+    height: 46px;
+    width: 46px;
+}
+
+#head1 {
+    padding: 5px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#head2 {
+    background-color: #b0b0b0;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+#notice {
+    background-color: #ffcccc;
+    color: #ff3030;
+    padding: 5px;
+    font-size: .75em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#notice span {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.tbb {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-family: "Special Elite", Arial;
+}
+
+#h1name {
+    font-size: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    font-family: "Prompt", Arial;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.subject {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.divisioncard {
+    display: flex;
+}
+
+.divlogo {
+    width: 120px;
+    height: 100%;
+    padding-right: 5px;
+}
+.divlogo img {
+    width: 100%;
+}
+
+.divtext {
+    width: calc(100% - 120px);
+}

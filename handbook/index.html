@@ -28,5 +28,16 @@
     
     <body>
         <iframe id="handbook" src="https://docs.google.com/document/d/1W8AWSW7ISyyGm7rQ34Ym0PWkm0q4DjlcclbkU7n7wMI/edit?embedded=true" width="640" height="718" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        <script>
+            const handbook = document.getElementById('handbook');
+            document.addEventListener("DOMContentLoaded", function() {
+                const rect = handbook.getBoundingClientRect();
+                const position = {
+                    top: rect.top + window.scrollY,
+                    left: rect.left + window.scrollX
+                };
+                handbook.style.height = `calc(100vh - ${position.top}px)`
+            });
+        </script>
     </body>
 </html>
